@@ -13,6 +13,7 @@
 		DE486E36293FB56F00034E9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE486E35293FB56F00034E9F /* Preview Assets.xcassets */; };
 		DE9D04BB2940B72100A300AB /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9D04BA2940B72100A300AB /* WelcomeView.swift */; };
 		DE9D04BD2940B72F00A300AB /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9D04BC2940B72F00A300AB /* ExerciseView.swift */; };
+		DE9D04C02940C33100A300AB /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9D04BF2940C33100A300AB /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		DE486E35293FB56F00034E9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE9D04BA2940B72100A300AB /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		DE9D04BC2940B72F00A300AB /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		DE9D04BF2940C33100A300AB /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				DE486E30293FB56E00034E9F /* ContentView.swift */,
 				DE9D04BA2940B72100A300AB /* WelcomeView.swift */,
 				DE9D04BC2940B72F00A300AB /* ExerciseView.swift */,
+				DE9D04BF2940C33100A300AB /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9D04C02940C33100A300AB /* HeaderView.swift in Sources */,
 				DE9D04BD2940B72F00A300AB /* ExerciseView.swift in Sources */,
 				DE486E31293FB56E00034E9F /* ContentView.swift in Sources */,
 				DE9D04BB2940B72100A300AB /* WelcomeView.swift in Sources */,
