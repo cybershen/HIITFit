@@ -14,6 +14,11 @@
 		DE9D04BB2940B72100A300AB /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9D04BA2940B72100A300AB /* WelcomeView.swift */; };
 		DE9D04BD2940B72F00A300AB /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9D04BC2940B72F00A300AB /* ExerciseView.swift */; };
 		DE9D04C02940C33100A300AB /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9D04BF2940C33100A300AB /* HeaderView.swift */; };
+		DE9D04C72940CF2700A300AB /* squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DE9D04C32940CB9000A300AB /* squat.mp4 */; };
+		DE9D04C82940CF2D00A300AB /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DE9D04C22940CB9000A300AB /* burpee.mp4 */; };
+		DE9D04C92940CF2F00A300AB /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DE9D04C52940CB9100A300AB /* step-up.mp4 */; };
+		DE9D04CA2940CF3100A300AB /* sun-salute.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DE9D04C42940CB9000A300AB /* sun-salute.mp4 */; };
+		DE9EDE782941ECC700396443 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EDE772941ECC700396443 /* RatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,11 @@
 		DE9D04BA2940B72100A300AB /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		DE9D04BC2940B72F00A300AB /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 		DE9D04BF2940C33100A300AB /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DE9D04C22940CB9000A300AB /* burpee.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burpee.mp4; sourceTree = "<group>"; };
+		DE9D04C32940CB9000A300AB /* squat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = squat.mp4; sourceTree = "<group>"; };
+		DE9D04C42940CB9000A300AB /* sun-salute.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sun-salute.mp4"; sourceTree = "<group>"; };
+		DE9D04C52940CB9100A300AB /* step-up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "step-up.mp4"; sourceTree = "<group>"; };
+		DE9EDE772941ECC700396443 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,7 @@
 			children = (
 				DE486E2E293FB56E00034E9F /* HIITFitApp.swift */,
 				DE9D04BE2940B74200A300AB /* Views */,
+				DE9D04C62940CC7900A300AB /* Videos */,
 				DE486E32293FB56F00034E9F /* Assets.xcassets */,
 				DE486E34293FB56F00034E9F /* Preview Content */,
 			);
@@ -80,8 +91,21 @@
 				DE9D04BA2940B72100A300AB /* WelcomeView.swift */,
 				DE9D04BC2940B72F00A300AB /* ExerciseView.swift */,
 				DE9D04BF2940C33100A300AB /* HeaderView.swift */,
+				DE9EDE772941ECC700396443 /* RatingView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		DE9D04C62940CC7900A300AB /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				DE9D04C32940CB9000A300AB /* squat.mp4 */,
+				DE9D04C22940CB9000A300AB /* burpee.mp4 */,
+				DE9D04C52940CB9100A300AB /* step-up.mp4 */,
+				DE9D04C42940CB9000A300AB /* sun-salute.mp4 */,
+			);
+			name = Videos;
+			path = "Preview Content/Videos";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +166,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9D04C92940CF2F00A300AB /* step-up.mp4 in Resources */,
+				DE9D04C82940CF2D00A300AB /* burpee.mp4 in Resources */,
 				DE486E36293FB56F00034E9F /* Preview Assets.xcassets in Resources */,
+				DE9D04C72940CF2700A300AB /* squat.mp4 in Resources */,
+				DE9D04CA2940CF3100A300AB /* sun-salute.mp4 in Resources */,
 				DE486E33293FB56F00034E9F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,6 +185,7 @@
 				DE9D04C02940C33100A300AB /* HeaderView.swift in Sources */,
 				DE9D04BD2940B72F00A300AB /* ExerciseView.swift in Sources */,
 				DE486E31293FB56E00034E9F /* ContentView.swift in Sources */,
+				DE9EDE782941ECC700396443 /* RatingView.swift in Sources */,
 				DE9D04BB2940B72100A300AB /* WelcomeView.swift in Sources */,
 				DE486E2F293FB56E00034E9F /* HIITFitApp.swift in Sources */,
 			);
