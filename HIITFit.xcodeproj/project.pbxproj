@@ -11,6 +11,9 @@
 		DE486E31293FB56E00034E9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE486E30293FB56E00034E9F /* ContentView.swift */; };
 		DE486E33293FB56F00034E9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE486E32293FB56F00034E9F /* Assets.xcassets */; };
 		DE486E36293FB56F00034E9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE486E35293FB56F00034E9F /* Preview Assets.xcassets */; };
+		DE839BCF2948C86F00179B0B /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE839BCE2948C86F00179B0B /* Exercise.swift */; };
+		DE9197F7295082D800440A15 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9197F6295082D800440A15 /* HistoryStore.swift */; };
+		DE9197FA2950845300440A15 /* HistoryStoreDevData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9197F92950845300440A15 /* HistoryStoreDevData.swift */; };
 		DE9D04BB2940B72100A300AB /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9D04BA2940B72100A300AB /* WelcomeView.swift */; };
 		DE9D04BD2940B72F00A300AB /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9D04BC2940B72F00A300AB /* ExerciseView.swift */; };
 		DE9D04C02940C33100A300AB /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9D04BF2940C33100A300AB /* HeaderView.swift */; };
@@ -31,6 +34,9 @@
 		DE486E30293FB56E00034E9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE486E32293FB56F00034E9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE486E35293FB56F00034E9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE839BCE2948C86F00179B0B /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		DE9197F6295082D800440A15 /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		DE9197F92950845300440A15 /* HistoryStoreDevData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStoreDevData.swift; sourceTree = "<group>"; };
 		DE9D04BA2940B72100A300AB /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		DE9D04BC2940B72F00A300AB /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 		DE9D04BF2940C33100A300AB /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
@@ -76,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				DE486E2E293FB56E00034E9F /* HIITFitApp.swift */,
+				DE9197F8295082EB00440A15 /* Model */,
 				DE9EDECC2944D02200396443 /* Extensions */,
 				DE9D04BE2940B74200A300AB /* Views */,
 				DE9D04C62940CC7900A300AB /* Videos */,
@@ -89,8 +96,18 @@
 			isa = PBXGroup;
 			children = (
 				DE486E35293FB56F00034E9F /* Preview Assets.xcassets */,
+				DE9197F92950845300440A15 /* HistoryStoreDevData.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE9197F8295082EB00440A15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE839BCE2948C86F00179B0B /* Exercise.swift */,
+				DE9197F6295082D800440A15 /* HistoryStore.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		DE9D04BE2940B74200A300AB /* Views */ = {
@@ -206,8 +223,11 @@
 				DE9EDE7C2942076700396443 /* DateExtension.swift in Sources */,
 				DE9EDECE2944D2C300396443 /* SuccessView.swift in Sources */,
 				DE9D04C02940C33100A300AB /* HeaderView.swift in Sources */,
+				DE9197F7295082D800440A15 /* HistoryStore.swift in Sources */,
+				DE9197FA2950845300440A15 /* HistoryStoreDevData.swift in Sources */,
 				DE9D04BD2940B72F00A300AB /* ExerciseView.swift in Sources */,
 				DE486E31293FB56E00034E9F /* ContentView.swift in Sources */,
+				DE839BCF2948C86F00179B0B /* Exercise.swift in Sources */,
 				DE9EDE782941ECC700396443 /* RatingView.swift in Sources */,
 				DE9D04BB2940B72100A300AB /* WelcomeView.swift in Sources */,
 				DE9EDECB2944D01C00396443 /* ImageExtension.swift in Sources */,
